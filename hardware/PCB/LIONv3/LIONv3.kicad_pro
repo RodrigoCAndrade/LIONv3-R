@@ -672,13 +672,21 @@
         "uuid": "3cc9e06f-00d0-4bec-822f-2e156022ced4"
       }
     ],
-    "used_designators": "U1-2",
+    "used_designators": "U1-4,U7-11,U14,D1-6,#PWR1-4,#PWR6-7,#PWR11-12,#PWR15,#PWR17-24,#PWR26-29,#PWR36,#PWR41,#PWR45,#PWR62-63,C1-2,C9-13,C15,C21-23,#FLG2-6,R1-6,R11,R15-21,R28,R45",
     "variants": []
   },
   "sheets": [
     [
       "3cc9e06f-00d0-4bec-822f-2e156022ced4",
       "Root"
+    ],
+    [
+      "d6030e6b-69d2-4923-80e2-2aab4b335fec",
+      "RF"
+    ],
+    [
+      "78bf7d09-3355-4da6-a4af-8df1bf47cdde",
+      "POWER"
     ]
   ],
   "text_variables": {},

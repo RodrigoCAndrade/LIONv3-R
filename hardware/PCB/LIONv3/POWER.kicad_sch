@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "31abe495-a6a2-4e3d-bd17-4dc0965bc356")
 	(paper "A4")
+	(title_block
+		(title "LIONv3")
+		(date "2026-08-12")
+		(rev "0.1")
+		(comment 1 "v3-Rodrigo")
+		(comment 2 "Rodrigo")
+		(comment 3 "2026-08-12")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -2227,7 +2235,7 @@
 		)
 		(uuid "af8bdfee-6250-4e8c-8ae8-ca16967f664b")
 	)
-	(text_box "PC/104 HEADERS"
+	(text_box "POWER CURRENT MONITOR"
 		(exclude_from_sim no)
 		(at 13.97 71.12 0)
 		(size 125.73 60.96)
@@ -2250,7 +2258,7 @@
 		)
 		(uuid "095d1f98-0909-4b51-8b72-bcabff78823e")
 	)
-	(text_box "LDO 3.3V"
+	(text_box "LEDS"
 		(exclude_from_sim no)
 		(at 213.36 13.97 0)
 		(size 69.85 55.88)

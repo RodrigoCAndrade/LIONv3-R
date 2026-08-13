@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -528,7 +528,7 @@
       "specctra_dsn": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://R-Template.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -660,7 +660,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://R-Template.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -672,7 +672,7 @@
         "uuid": "3cc9e06f-00d0-4bec-822f-2e156022ced4"
       }
     ],
-    "used_designators": "C3-4,#PWR8,#PWR30-31",
+    "used_designators": "#FLG1,R5,R7-10,R22,J1-7,#PWR10,#PWR32-35,#PWR37-40,#PWR42,C5,C7,H5-8,SW1-2,U12",
     "variants": []
   },
   "sheets": [

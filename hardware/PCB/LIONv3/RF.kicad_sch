@@ -9,7 +9,7 @@
 		(date "2026-08-12")
 		(rev "0.1")
 		(comment 1 "v3-Rodrigo")
-		(comment 2 "Rodrigo")
+		(comment 2 "Rodrigo Andrade")
 		(comment 3 "2026-08-12")
 	)
 	(lib_symbols
@@ -2232,6 +2232,46 @@
 		)
 		(uuid "06f9b612-5382-4913-a39e-45517018ddd0")
 	)
+	(text "VALIDATED"
+		(exclude_from_sim no)
+		(at 118.11 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5388eef8-6c13-4d10-885f-dd211419a8df")
+	)
+	(text "VALIDATED"
+		(exclude_from_sim no)
+		(at 276.86 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6300189b-e3a8-4b15-8ca7-902ca49519f2")
+	)
+	(text "VALIDATED"
+		(exclude_from_sim no)
+		(at 204.47 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba0cf7dc-2b8c-4791-b202-d50efac8d6f1")
+	)
+	(text "VALIDATED"
+		(exclude_from_sim no)
+		(at 276.86 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "caa32a79-afeb-4204-ada1-d6321a3f8cc3")
+	)
 	(text_box "MEMORY"
 		(exclude_from_sim no)
 		(at 207.01 78.74 0)
@@ -4359,7 +4399,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/63461.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C131025.pdf"
 			(at 236.474 104.013 0)
 			(hide yes)
 			(show_name no)

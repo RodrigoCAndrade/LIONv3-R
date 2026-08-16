@@ -2540,12 +2540,12 @@
 		(uuid "2afaa088-f336-42fa-9c68-005aae60dae2")
 	)
 	(no_connect
-		(at 152.4 40.64)
-		(uuid "be890bac-815d-4e60-9d5c-5444ed69dc64")
+		(at 36.83 59.69)
+		(uuid "a3dffbc8-4f75-40e3-a7ab-8e43637b75a7")
 	)
 	(no_connect
-		(at 67.31 59.69)
-		(uuid "c20a3be0-3359-4982-b6ce-4543a46ef1a4")
+		(at 152.4 40.64)
+		(uuid "be890bac-815d-4e60-9d5c-5444ed69dc64")
 	)
 	(wire
 		(pts
@@ -2576,16 +2576,6 @@
 			(type default)
 		)
 		(uuid "08e7c650-ab6c-4006-8fca-7a7d45f2093b")
-	)
-	(wire
-		(pts
-			(xy 25.4 59.69) (xy 36.83 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b0c92d9-95c4-47c6-b6c9-e7d5457b6768")
 	)
 	(wire
 		(pts
@@ -2936,6 +2926,16 @@
 			(type default)
 		)
 		(uuid "6478f1a4-dfb9-49ce-8a8d-2fbc8dc32035")
+	)
+	(wire
+		(pts
+			(xy 67.31 59.69) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649b34e7-a11c-4467-8588-e2ecf3f2cdbd")
 	)
 	(wire
 		(pts
@@ -3577,15 +3577,15 @@
 		)
 		(uuid "fed9a246-dddf-423c-9a3d-01f43d37c93b")
 	)
-	(label "ANT_2.4"
-		(at 25.4 59.69 0)
+	(label "ANT_915"
+		(at 77.47 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "68e7fef7-20ed-46f5-a53c-98926ce56ed9")
+		(uuid "7a791e22-46d3-422c-9540-12f9cb1b7f7b")
 	)
 	(label "ANT_2.4"
 		(at 44.45 91.44 180)

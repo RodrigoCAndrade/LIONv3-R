@@ -3587,7 +3587,7 @@
 		)
 		(uuid "7a791e22-46d3-422c-9540-12f9cb1b7f7b")
 	)
-	(label "ANT_2.4"
+	(label "ANT_915"
 		(at 44.45 91.44 180)
 		(effects
 			(font

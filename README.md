@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://framerusercontent.com/images/zX3lmokKbWs01tG0gns0ruBgLo.png" alt="Rodrigo Andrade Logo" width="156"/>
+  <img src="https://framerusercontent.com/images/zX3lmokKbWs01tG0gns0ruBgLo.png" alt="Rodrigo Andrade Logo" width="96"/>
 </div>
 
-<h1 align="center">LIONv3-R</h1>
-I
+<h1 align="center">LIONv3-R Module</h1>
+
 <p align="center">
     <a href="https://github.com/RodrigoCAndrade/LIONv3-R"><img alt="Status" src="https://img.shields.io/badge/Status-In Development-050505?style=for-the-badge"></a>
     <a href="https://github.com/RodrigoCAndrade/LIONv3-R/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/RodrigoCAndrade/LIONv3-R?style=for-the-badge&color=050505&logo=github&logoColor=white"></a>
@@ -15,7 +15,7 @@ I
 <br>
 
 <p align="center">
-    <img src="mechanics/3d_exports/PCB-Front.png" width="200"><img src="mechanics/3d_exports/PCB-Back.png" width="200">
+    <img src="mechanics/3d_exports/PCB-Front.png" width="350"><img src="mechanics/3d_exports/PCB-Back.png" width="350">
 </p>
 
 ## Overview
@@ -46,7 +46,7 @@ The LIONv3-R is a powerful IoT and Direct-to-Satellite (DtS) board powered by th
   </thead>
   <tbody>
     <tr>
-      <td><img src="mechanics/3d_exports/PCB-Front.png" alt="board render" width="64"/></td>
+      <td><img src="mechanics/3d_exports/PCB-Front.png" alt="board render" width="128"/></td>
       <td>LIONv3-R</td>
       <td>🚧 Development</td>
       <td><a href="#">-</a></td>
@@ -64,6 +64,8 @@ We welcome contributions to this project! To ensure a smooth collaboration and m
 
 
 ## References
+
+<br/>
 
 ## License
 

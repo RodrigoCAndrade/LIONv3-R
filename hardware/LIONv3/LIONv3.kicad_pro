@@ -99,7 +99,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.3,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -187,7 +187,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1,
         "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.254,
@@ -770,7 +770,7 @@
         "uuid": "3cc9e06f-00d0-4bec-822f-2e156022ced4"
       }
     ],
-    "used_designators": "#FLG9-11,#PWR13-14,#PWR16-17,#PWR47,U16-18",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

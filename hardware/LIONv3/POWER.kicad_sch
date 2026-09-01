@@ -2715,12 +2715,6 @@
 		(uuid "8173c297-f6c5-4f6b-9be8-b4fb46117e3b")
 	)
 	(junction
-		(at 196.85 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8810c743-63c3-48f1-9d0d-256285adde8d")
-	)
-	(junction
 		(at 156.21 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3750,16 +3744,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 95.25) (xy 193.04 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a16aa74a-02f5-49d1-b40e-b9fb58fad55c")
-	)
-	(wire
-		(pts
 			(xy 162.56 49.53) (xy 162.56 59.69)
 		)
 		(stroke
@@ -3800,7 +3784,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 100.33) (xy 196.85 97.79)
+			(xy 196.85 93.98) (xy 196.85 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3957,16 +3941,6 @@
 			(type default)
 		)
 		(uuid "c2dc465e-f0ce-44b1-a458-a411a1c6400b")
-	)
-	(wire
-		(pts
-			(xy 193.04 97.79) (xy 196.85 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c38e1ecc-c257-42ec-a8cf-a6adc15f712b")
 	)
 	(wire
 		(pts
@@ -4267,16 +4241,6 @@
 			(type default)
 		)
 		(uuid "f3856462-509f-4581-a62a-3c83cf207ac1")
-	)
-	(wire
-		(pts
-			(xy 196.85 93.98) (xy 196.85 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3e98482-8166-419c-9da7-f59e09524326")
 	)
 	(wire
 		(pts
@@ -4795,85 +4759,6 @@
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/78bf7d09-3355-4da6-a4af-8df1bf47cdde"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 193.04 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e157b37-1198-4a86-bcb2-e7cf4cb3f1d4")
-		(property "Reference" "#FLG09"
-			(at 193.04 93.345 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 193.04 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 193.04 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "127454fb-0856-4135-978b-80565423d090")
-		)
-		(instances
-			(project "LIONv3"
-				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/78bf7d09-3355-4da6-a4af-8df1bf47cdde"
-					(reference "#FLG09")
 					(unit 1)
 				)
 			)

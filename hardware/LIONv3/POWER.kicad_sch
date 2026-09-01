@@ -2455,6 +2455,16 @@
 		)
 		(uuid "23f4e3ec-bde0-428f-9e33-524a430f0243")
 	)
+	(text "AUTO-RETRY VERSION (110ms)"
+		(exclude_from_sim no)
+		(at 194.31 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "76d5cb1a-0094-43ad-8468-00339800c520")
+	)
 	(text "LED GREEN"
 		(exclude_from_sim no)
 		(at 241.3 37.084 0)

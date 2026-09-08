@@ -2222,7 +2222,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "BLUE RX/TX\n"
+	(text "BLUE RX/TX@3.4mA"
 		(exclude_from_sim no)
 		(at 236.22 43.18 0)
 		(effects
@@ -2231,46 +2231,6 @@
 			)
 		)
 		(uuid "06f9b612-5382-4913-a39e-45517018ddd0")
-	)
-	(text "VALIDATED"
-		(exclude_from_sim no)
-		(at 118.11 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5388eef8-6c13-4d10-885f-dd211419a8df")
-	)
-	(text "VALIDATED"
-		(exclude_from_sim no)
-		(at 276.86 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6300189b-e3a8-4b15-8ca7-902ca49519f2")
-	)
-	(text "VALIDATED"
-		(exclude_from_sim no)
-		(at 204.47 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ba0cf7dc-2b8c-4791-b202-d50efac8d6f1")
-	)
-	(text "VALIDATED"
-		(exclude_from_sim no)
-		(at 276.86 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "caa32a79-afeb-4204-ada1-d6321a3f8cc3")
 	)
 	(text_box "MEMORY"
 		(exclude_from_sim no)
@@ -4585,7 +4545,7 @@
 				)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "1k"
 			(at 251.46 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6385,7 +6345,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210617/C2837377_50FC585D376FE0CDA016E524346528FF.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C965807.pdf"
 			(at 233.934 37.973 0)
 			(hide yes)
 			(show_name no)

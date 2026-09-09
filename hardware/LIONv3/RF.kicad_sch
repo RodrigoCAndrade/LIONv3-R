@@ -2234,6 +2234,16 @@
 		)
 		(uuid "06f9b612-5382-4913-a39e-45517018ddd0")
 	)
+	(text "Table 6-2 (Page 18)"
+		(exclude_from_sim no)
+		(at 143.51 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a80d9f80-bcad-4835-ab39-e0f5d921c8f4")
+	)
 	(text_box "MEMORY"
 		(exclude_from_sim no)
 		(at 207.01 78.74 0)
@@ -3596,6 +3606,196 @@
 			(type default)
 		)
 		(uuid "fed9a246-dddf-423c-9a3d-01f43d37c93b")
+	)
+	(table
+		(column_count 5)
+		(border
+			(external no)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows no)
+			(cols no)
+		)
+		(column_widths 5.08 5.08 10.16 6.35 5.08)
+		(row_heights 2.54 2.54)
+		(uuid "7766581d-f44c-4dae-85dd-023b9cc22945")
+		(cells
+			(table_cell "A0"
+				(exclude_from_sim no)
+				(at 127 71.12 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e34b2898-4199-4c18-939f-0f4bb16905e6")
+			)
+			(table_cell "A1"
+				(exclude_from_sim no)
+				(at 132.08 71.12 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e34b2898-4199-4c18-939f-0f4bb16905e6")
+			)
+			(table_cell "Binary"
+				(exclude_from_sim no)
+				(at 137.16 71.12 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7cbeb8b2-a628-4f11-9715-68b237cad9e9")
+			)
+			(table_cell "Hex"
+				(exclude_from_sim no)
+				(at 147.32 71.12 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0329b06c-bc01-48d3-af42-7e8cddf6543f")
+			)
+			(table_cell "Dec"
+				(exclude_from_sim no)
+				(at 153.67 71.12 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "dc460211-469b-4185-8484-96a9d9100fdf")
+			)
+			(table_cell "GND"
+				(exclude_from_sim no)
+				(at 127 73.66 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bf7d42a6-98a9-46d8-b157-7d95cd0d5c6a")
+			)
+			(table_cell "GND"
+				(exclude_from_sim no)
+				(at 132.08 73.66 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bf7d42a6-98a9-46d8-b157-7d95cd0d5c6a")
+			)
+			(table_cell "1000000"
+				(exclude_from_sim no)
+				(at 137.16 73.66 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b60efcbb-c601-42e8-8842-517dcc3a29c4")
+			)
+			(table_cell "0x40"
+				(exclude_from_sim no)
+				(at 147.32 73.66 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "da0787b9-2c2c-47f7-a1a0-d995d8197a20")
+			)
+			(table_cell "64"
+				(exclude_from_sim no)
+				(at 153.67 73.66 0)
+				(size 5.08 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0f68b5d3-a41c-4f40-a7eb-3d1014f33cea")
+			)
+		)
 	)
 	(label "ANT_915"
 		(at 83.82 52.07 180)

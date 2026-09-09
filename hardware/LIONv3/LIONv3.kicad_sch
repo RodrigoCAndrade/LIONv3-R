@@ -4486,16 +4486,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "High frequency filtering"
-		(exclude_from_sim no)
-		(at 73.66 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "346c9172-a29c-44dc-aaab-46420b392253")
-	)
 	(text "LATCH CONNECTORS\nmates in one orientation only"
 		(exclude_from_sim no)
 		(at 201.93 115.57 0)

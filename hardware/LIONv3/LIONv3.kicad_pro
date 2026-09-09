@@ -324,6 +324,10 @@
         ""
       ],
       [
+        "footprint_link_issues|1892300|330200|f9e24f82-c4a5-4929-a697-a5b9cc763d0a|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
         "footprint_link_issues|546100|850900|7fbdbf2f-8181-438a-8248-ca5a036876ca|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
@@ -806,7 +810,7 @@
         "uuid": "3cc9e06f-00d0-4bec-822f-2e156022ced4"
       }
     ],
-    "used_designators": "FB3,JP2",
+    "used_designators": "FB3,JP2,R30",
     "variants": []
   },
   "sheets": [

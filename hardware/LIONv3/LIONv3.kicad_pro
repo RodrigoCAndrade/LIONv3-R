@@ -314,7 +314,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|1536700|889000|3496e27e-c4d6-4a82-b89f-a9df7e4f955b|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|1892300|330200|6289e9d2-6128-4fb8-b5f5-3f2befb8ba51|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|546100|850900|7fbdbf2f-8181-438a-8248-ca5a036876ca|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|584200|279400|c0fab798-26c1-4ed0-84d6-98213574c265|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|939800|863600|9a2f3cf8-531e-4d14-8d2e-f82a4838ddff|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -500,7 +521,7 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
@@ -527,7 +548,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -567,6 +588,13 @@
         "wire_width": 6
       },
       {
+        "name": "50Ω",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -574,7 +602,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": "",
@@ -586,7 +614,11 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/RF/ANT_915": [
+        "50Ω"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -615,6 +647,10 @@
       {
         "netclass": "Power",
         "pattern": "/POWER/3V3_IN"
+      },
+      {
+        "netclass": "50Ω",
+        "pattern": "/RF/ANT_915"
       }
     ]
   },
@@ -770,7 +806,7 @@
         "uuid": "3cc9e06f-00d0-4bec-822f-2e156022ced4"
       }
     ],
-    "used_designators": "",
+    "used_designators": "FB3,JP2",
     "variants": []
   },
   "sheets": [

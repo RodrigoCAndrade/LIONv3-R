@@ -2642,6 +2642,17 @@
 		)
 		(uuid "af8bdfee-6250-4e8c-8ae8-ca16967f664b")
 	)
+	(text "LATCH CONNECTORS (NO reverse-polarity)\nmates in one orientation only"
+		(exclude_from_sim no)
+		(at 143.51 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2ce98fb-bfb9-44c5-a93d-439ba9b40fd6")
+	)
 	(text_box "POWER CURRENT MONITOR"
 		(exclude_from_sim no)
 		(at 13.97 71.12 0)
@@ -6069,7 +6080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2848334.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv767.pdf"
 			(at 57.404 44.323 0)
 			(hide yes)
 			(show_name no)
@@ -6180,7 +6191,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210728/C2845379_48B7DC28A4B35DB030A7253F7C3FD974.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2845379.pdf"
 			(at 256.794 101.473 0)
 			(hide yes)
 			(show_name no)
@@ -6517,7 +6528,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210728/C2845379_48B7DC28A4B35DB030A7253F7C3FD974.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2845379.pdf"
 			(at 209.804 101.473 0)
 			(hide yes)
 			(show_name no)
@@ -8852,7 +8863,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210728/C2845379_48B7DC28A4B35DB030A7253F7C3FD974.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2845379.pdf"
 			(at 172.974 101.473 0)
 			(hide yes)
 			(show_name no)

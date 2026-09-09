@@ -338,6 +338,14 @@
       [
         "footprint_link_issues|939800|863600|9a2f3cf8-531e-4d14-8d2e-f82a4838ddff|00000000-0000-0000-0000-000000000000|||",
         ""
+      ],
+      [
+        "multiple_net_names|1028700|317500|1a3e9370-97fb-43f4-807e-329e8b91af51|9f4fd07b-01b7-4daa-a5a2-c58c4cc3617f|/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e|/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e|/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e",
+        ""
+      ],
+      [
+        "multiple_net_names|1028700|342900|39eb9e51-e1fa-4131-b566-ba15e7632357|a47758eb-4a50-4f5a-9f12-46f50b4d112c|/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e|/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e|/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e",
+        ""
       ]
     ],
     "meta": {
@@ -592,9 +600,16 @@
         "wire_width": 6
       },
       {
-        "name": "50Ω",
+        "name": "120Ω",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "50Ω",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
@@ -606,7 +621,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": "",
@@ -619,6 +634,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/CAN_N": [
+        "120Ω"
+      ],
+      "/CAN_P": [
+        "120Ω"
+      ],
       "/RF/ANT_915": [
         "50Ω"
       ]
@@ -810,7 +831,7 @@
         "uuid": "3cc9e06f-00d0-4bec-822f-2e156022ced4"
       }
     ],
-    "used_designators": "FB3,JP2,R30",
+    "used_designators": "FB3,JP1-3,R1,R12,R30-31,C1-2,C24,D1,#PWR1,#PWR5,#PWR20,U1",
     "variants": []
   },
   "sheets": [
@@ -825,6 +846,10 @@
     [
       "78bf7d09-3355-4da6-a4af-8df1bf47cdde",
       "POWER"
+    ],
+    [
+      "732ad377-cd6b-418c-b5b5-46888f6f133e",
+      "CANbus"
     ]
   ],
   "text_variables": {},

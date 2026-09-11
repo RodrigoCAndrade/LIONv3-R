@@ -3106,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 92.71) (xy 153.67 100.33)
+			(xy 152.4 91.44) (xy 152.4 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3406,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 83.82) (xy 153.67 85.09)
+			(xy 152.4 82.55) (xy 152.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4196,7 +4196,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 100.33) (xy 160.02 100.33)
+			(xy 152.4 100.33) (xy 160.02 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5090,7 +5090,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 153.67 83.82 0)
+		(at 152.4 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5101,7 +5101,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d15f0d7-1f96-4b24-9411-1c2b820efb04")
 		(property "Reference" "#PWR016"
-			(at 153.67 87.63 0)
+			(at 152.4 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5112,7 +5112,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 153.67 78.74 0)
+			(at 152.4 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5122,7 +5122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 83.82 0)
+			(at 152.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5133,7 +5133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 83.82 0)
+			(at 152.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5144,7 +5144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 153.67 83.82 0)
+			(at 152.4 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5766,10 +5766,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c51a061-7209-46cb-b47c-17dd62ca0153")
 		(property "Reference" "FB2"
-			(at 162.5219 93.98 90)
+			(at 162.56 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5778,8 +5777,8 @@
 				)
 			)
 		)
-		(property "Value" "220Ω@100MHz"
-			(at 162.5219 96.52 90)
+		(property "Value" "BLM21PG221SN1D"
+			(at 162.56 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5832,6 +5831,16 @@
 				)
 			)
 		)
+		(property "Rating" "220Ω@100MHz | 2A"
+			(at 162.56 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8467 0.8467)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3405d56c-20d1-4747-b7e6-d11d74424f95")
 		)
@@ -5849,7 +5858,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 153.67 88.9 270)
+		(at 152.4 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5857,10 +5866,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3496e27e-c4d6-4a82-b89f-a9df7e4f955b")
 		(property "Reference" "D3"
-			(at 156.21 87.3124 90)
+			(at 154.94 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5870,8 +5878,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 156.21 89.8524 90)
+		(property "Value" "RB161QS-40T18R"
+			(at 154.94 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5882,7 +5890,7 @@
 			)
 		)
 		(property "Footprint" "LIONv3-Footprints:X2-DFN1006-2_L1.0-W0.6-P0.65-RD"
-			(at 153.67 88.9 0)
+			(at 152.4 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5892,8 +5900,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 153.67 88.9 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2837790.pdf"
+			(at 152.4 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5904,7 +5912,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 153.67 88.9 0)
+			(at 152.4 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5915,13 +5923,23 @@
 			)
 		)
 		(property "LCSC" "C2837790"
-			(at 153.67 88.9 0)
+			(at 152.4 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "600mV@1A"
+			(at 158.6828 88.2846 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8467 0.8467)
 				)
 			)
 		)

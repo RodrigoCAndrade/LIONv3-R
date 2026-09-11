@@ -1360,6 +1360,18 @@
 		)
 		(uuid "774b5fc6-e66a-416d-a98b-8fb5503cd9f1")
 	)
+	(text "CANbus"
+		(exclude_from_sim no)
+		(at 242.57 151.13 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "820ff070-0e59-4426-ad40-03d114a34313")
+	)
 	(text_box "CANbus TRANSCEIVER"
 		(exclude_from_sim no)
 		(at 13.97 13.97 0)

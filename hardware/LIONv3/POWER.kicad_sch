@@ -2592,6 +2592,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "POWER CIRCUIT"
+		(exclude_from_sim no)
+		(at 241.3 151.13 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "078e0323-a3e6-443d-8dd6-4628862a44d6")
+	)
 	(text "3.3V@800mA"
 		(exclude_from_sim no)
 		(at 71.12 26.67 0)

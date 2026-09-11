@@ -324,6 +324,14 @@
         ""
       ],
       [
+        "footprint_link_issues|2463800|901700|9a2f3cf8-531e-4d14-8d2e-f82a4838ddff|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|254000|977900|3496e27e-c4d6-4a82-b89f-a9df7e4f955b|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
         "footprint_link_issues|584200|279400|f459fda2-d1a7-48c3-9d9f-553fe34b6a99|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
@@ -827,7 +835,7 @@
         "uuid": "3cc9e06f-00d0-4bec-822f-2e156022ced4"
       }
     ],
-    "used_designators": "#FLG1,D4,D6-8,#PWR2,#PWR45-46,#PWR51,#PWR54-60,FB1,C6,C21",
+    "used_designators": "R2-3,#FLG1,D4,D6-8,#PWR2,#PWR45-46,#PWR51,#PWR54-60,FB1,C6,C21",
     "variants": []
   },
   "sheets": [

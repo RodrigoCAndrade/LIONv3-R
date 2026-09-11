@@ -2224,7 +2224,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "BLUE RX/TX@3.4mA"
+	(text "BLUE RX/TX@3mA"
 		(exclude_from_sim no)
 		(at 76.2 97.79 0)
 		(effects
@@ -2255,6 +2255,16 @@
 			)
 		)
 		(uuid "a80d9f80-bcad-4835-ab39-e0f5d921c8f4")
+	)
+	(text "(3.3-3)/120"
+		(exclude_from_sim no)
+		(at 76.2 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a98ad4bb-7358-4e9c-9970-326ac6c5c5f5")
 	)
 	(text_box "MEMORY"
 		(exclude_from_sim no)
@@ -4757,7 +4767,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "120"
 			(at 91.44 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)

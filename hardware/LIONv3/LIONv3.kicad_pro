@@ -314,44 +314,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "footprint_link_issues|1524000|876300|3496e27e-c4d6-4a82-b89f-a9df7e4f955b|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|1803400|330200|f9e24f82-c4a5-4929-a697-a5b9cc763d0a|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|2463800|901700|9a2f3cf8-531e-4d14-8d2e-f82a4838ddff|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|254000|977900|3496e27e-c4d6-4a82-b89f-a9df7e4f955b|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|584200|279400|f459fda2-d1a7-48c3-9d9f-553fe34b6a99|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|889000|1676400|6a14d174-2cb5-420d-a47a-2fa70e3947d8|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "footprint_link_issues|939800|863600|9a2f3cf8-531e-4d14-8d2e-f82a4838ddff|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "multiple_net_names|1028700|317500|52758571-6f0c-40e9-8ac9-b6ab06de322a|9f4fd07b-01b7-4daa-a5a2-c58c4cc3617f|/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e|/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e|/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e",
-        ""
-      ],
-      [
-        "multiple_net_names|1028700|342900|39eb9e51-e1fa-4131-b566-ba15e7632357|a47758eb-4a50-4f5a-9f12-46f50b4d112c|/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e|/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e|/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -835,7 +798,7 @@
         "uuid": "3cc9e06f-00d0-4bec-822f-2e156022ced4"
       }
     ],
-    "used_designators": "R2-3,#FLG1,D4,D6-8,#PWR2,#PWR45-46,#PWR51,#PWR54-60,FB1,C6,C21",
+    "used_designators": "D4,D6-8",
     "variants": []
   },
   "sheets": [

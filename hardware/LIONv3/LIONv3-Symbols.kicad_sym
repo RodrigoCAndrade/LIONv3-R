@@ -5481,8 +5481,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U12"
-			(at -0.254 20.066 0)
+		(property "Reference" "U2"
+			(at 0 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5495,6 +5495,7 @@
 			(at 0 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +5503,7 @@
 			)
 		)
 		(property "Footprint" "LIONv3-Footprints:USB-C-SMD_TYPE-C-16PIN-2MD-073"
-			(at 0 -11.43 0)
+			(at 0.254 -22.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -5513,7 +5514,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/TYPE-C%252016PIN%25202MD(073)/2901843.html?spm=sc.gbn.xds.a___sc.gbn.hd.ss&lcsc_vid=QlQLUVBQT1ILU1MATlNWAVYCT1hYXgFRT1ReAlAAEQMxVlNRQFJaUVJRQVhXVzsOAxUeFF5JWA0NAgAHWQIASA%3D%3D"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2765186.pdf"
 			(at -2.286 -1.143 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5571,7 +5572,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -8.89 180)
+				(at -8.89 -8.89 0)
 				(length 2.54)
 				(name "EH"
 					(effects
@@ -5589,7 +5590,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -11.43 180)
+				(at -8.89 -11.43 0)
 				(length 2.54)
 				(name "EH"
 					(effects
@@ -5607,7 +5608,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -3.81 180)
+				(at -8.89 -3.81 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5625,7 +5626,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 10.16 0)
+				(at 8.89 10.16 180)
 				(length 2.54)
 				(name "VBUS"
 					(effects
@@ -5643,7 +5644,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 5.08 180)
+				(at -8.89 5.08 0)
 				(length 2.54)
 				(name "CC1"
 					(effects
@@ -5661,7 +5662,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 5.08 0)
+				(at 8.89 5.08 180)
 				(length 2.54)
 				(name "Dp1"
 					(effects
@@ -5679,7 +5680,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 -3.81 0)
+				(at 8.89 -3.81 180)
 				(length 2.54)
 				(name "Dn1"
 					(effects
@@ -5697,7 +5698,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 8.89 12.7 180)
+				(at -8.89 12.7 0)
 				(length 2.54)
 				(name "SBU1"
 					(effects
@@ -5715,7 +5716,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 -6.35 180)
+				(at -8.89 -6.35 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5733,7 +5734,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 12.7 0)
+				(at 8.89 12.7 180)
 				(length 2.54)
 				(name "VBUS"
 					(effects
@@ -5751,7 +5752,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 2.54 180)
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "CC2"
 					(effects
@@ -5769,7 +5770,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 2.54 0)
+				(at 8.89 2.54 180)
 				(length 2.54)
 				(name "Dp2"
 					(effects
@@ -5787,7 +5788,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 -6.35 0)
+				(at 8.89 -6.35 180)
 				(length 2.54)
 				(name "Dn2"
 					(effects
@@ -5805,7 +5806,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 8.89 10.16 180)
+				(at -8.89 10.16 0)
 				(length 2.54)
 				(name "SBU2"
 					(effects

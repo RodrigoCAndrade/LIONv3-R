@@ -1372,6 +1372,16 @@
 		)
 		(uuid "820ff070-0e59-4426-ad40-03d114a34313")
 	)
+	(text "DEFAULT: OPEN TERMINATION"
+		(exclude_from_sim no)
+		(at 151.13 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6c51c57-bd1c-4457-9cda-e76ef3fd9afc")
+	)
 	(text_box "CANbus TRANSCEIVER"
 		(exclude_from_sim no)
 		(at 13.97 13.97 0)

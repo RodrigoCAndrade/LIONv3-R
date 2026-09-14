@@ -7,12 +7,137 @@
 	(title_block
 		(title "LIONv3")
 		(date "2026-08-12")
-		(rev "0.1")
+		(rev "1.0")
 		(comment 1 "v3-Rodrigo")
 		(comment 2 "Rodrigo Andrade")
 		(comment 3 "2026-08-12")
+		(comment 4 "Rodrigo Andrade")
+		(comment 5 "2026-09-14")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_Square"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Square"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Square_0_1"
+				(rectangle
+					(start -0.762 0.762)
+					(end 0.762 -0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Square_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -3960,6 +4085,12 @@
 		(uuid "0ad1996e-68b1-4e8c-85f0-0c97d4f4c734")
 	)
 	(junction
+		(at 138.43 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cdf3f0d-61b6-43b1-986a-9a1d99fd624b")
+	)
+	(junction
 		(at 264.16 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4068,6 +4199,12 @@
 		(uuid "4a2aec2d-dd73-4ffd-b8fd-25a91725bf7e")
 	)
 	(junction
+		(at 101.6 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c0feced-a6dc-4afd-b6d1-1849d7f8c7fb")
+	)
+	(junction
 		(at 54.61 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4150,6 +4287,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b714480d-cdf8-4b7c-982e-7ac32f5e7f19")
+	)
+	(junction
+		(at 104.14 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc2cfd64-f0b6-4ac5-b53e-dc17dfc85ff5")
 	)
 	(junction
 		(at 262.89 40.64)
@@ -4273,6 +4416,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 163.83) (xy 101.6 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020cc5b3-176c-4dcf-b6a4-017780e65c80")
+	)
+	(wire
+		(pts
 			(xy 92.71 167.64) (xy 95.25 167.64)
 		)
 		(stroke
@@ -4313,7 +4466,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 62.23) (xy 189.23 62.23)
+			(xy 173.99 62.23) (xy 190.5 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4403,16 +4556,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 74.93) (xy 140.97 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aaae0ec-dff3-48aa-8759-fc56c95267d7")
-	)
-	(wire
-		(pts
 			(xy 158.75 74.93) (xy 158.75 91.44)
 		)
 		(stroke
@@ -4430,6 +4573,16 @@
 			(type default)
 		)
 		(uuid "1d226a85-ad01-4270-b84e-9a392302d669")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 135.89 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd1910d-659b-425a-94f9-c6b34c7368b2")
 	)
 	(wire
 		(pts
@@ -4663,16 +4816,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 60.96) (xy 256.54 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b6aaf39-af10-46b6-ab41-0679ac5bb609")
-	)
-	(wire
-		(pts
 			(xy 90.17 33.02) (xy 90.17 34.29)
 		)
 		(stroke
@@ -4893,6 +5036,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 29.21) (xy 256.54 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7c0a0b-b42a-48a6-a4a7-59c0577ec1fc")
+	)
+	(wire
+		(pts
 			(xy 262.89 39.37) (xy 262.89 40.64)
 		)
 		(stroke
@@ -4943,7 +5096,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 31.75) (xy 256.54 31.75)
+			(xy 240.03 31.75) (xy 256.54 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5373,7 +5526,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 86.36) (xy 135.89 99.06)
+			(xy 135.89 86.36) (xy 135.89 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5393,7 +5546,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 74.93) (xy 138.43 99.06)
+			(xy 138.43 74.93) (xy 138.43 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5410,6 +5563,16 @@
 			(type default)
 		)
 		(uuid "7e4cf072-c221-431a-91ac-6e50292f2b83")
+	)
+	(wire
+		(pts
+			(xy 101.6 167.64) (xy 113.03 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f72df72-24dd-464c-b76b-9bcc55f93a4e")
 	)
 	(wire
 		(pts
@@ -5483,6 +5646,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 54.61) (xy 123.19 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872edbb1-c811-4410-ae9d-19258902c57f")
+	)
+	(wire
+		(pts
 			(xy 34.29 186.69) (xy 24.13 186.69)
 		)
 		(stroke
@@ -5533,6 +5706,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 58.42) (xy 256.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6ac40b-2fb3-47c8-a45b-95f229c0c1bc")
+	)
+	(wire
+		(pts
 			(xy 180.34 31.75) (xy 180.34 17.78)
 		)
 		(stroke
@@ -5563,7 +5746,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 167.64) (xy 113.03 167.64)
+			(xy 95.25 167.64) (xy 101.6 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5600,6 +5783,16 @@
 			(type default)
 		)
 		(uuid "91ff0123-3977-47bb-af36-dce360359c65")
+	)
+	(wire
+		(pts
+			(xy 242.57 60.96) (xy 256.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9238ca23-afe8-484a-b20c-c4e342b6cdf0")
 	)
 	(wire
 		(pts
@@ -5793,16 +5986,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 29.21) (xy 256.54 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a882f418-dd07-4b65-aa45-74c8965f616c")
-	)
-	(wire
-		(pts
 			(xy 139.7 17.78) (xy 139.7 21.59)
 		)
 		(stroke
@@ -5943,6 +6126,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 88.9) (xy 133.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc23ea19-54a2-4843-9f07-133dfdd2ced6")
+	)
+	(wire
+		(pts
 			(xy 95.25 187.96) (xy 113.03 187.96)
 		)
 		(stroke
@@ -5973,16 +6166,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 58.42) (xy 256.54 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bebf072a-b778-46f8-bdca-d3e54dbc68a7")
-	)
-	(wire
-		(pts
 			(xy 207.01 60.96) (xy 217.17 60.96)
 		)
 		(stroke
@@ -6010,6 +6193,16 @@
 			(type default)
 		)
 		(uuid "c33ffd1d-942a-47ee-a13a-2d74b17fa71d")
+	)
+	(wire
+		(pts
+			(xy 127 100.33) (xy 133.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c354ad0d-651a-4d23-a99e-d2df3ba18486")
 	)
 	(wire
 		(pts
@@ -6050,16 +6243,6 @@
 			(type default)
 		)
 		(uuid "c95bf98d-f0ec-4f5e-8b55-739d6e712a5d")
-	)
-	(wire
-		(pts
-			(xy 133.35 88.9) (xy 133.35 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9618119-ecc5-428e-8416-7204b0d5a8ab")
 	)
 	(wire
 		(pts
@@ -6213,6 +6396,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 110.49) (xy 140.97 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da76a8eb-080a-494c-a525-9f3a1edcc813")
+	)
+	(wire
+		(pts
 			(xy 223.52 40.64) (xy 223.52 41.91)
 		)
 		(stroke
@@ -6253,7 +6446,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 54.61) (xy 123.19 54.61)
+			(xy 90.17 54.61) (xy 104.14 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6363,6 +6556,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 54.61) (xy 104.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44cbeb0-7344-4900-8d97-3e9cb0891e80")
+	)
+	(wire
+		(pts
 			(xy 114.3 88.9) (xy 114.3 85.09)
 		)
 		(stroke
@@ -6393,6 +6596,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 62.23) (xy 190.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea13a1cc-35c0-4132-977c-1b042e83794f")
+	)
+	(wire
+		(pts
 			(xy 120.65 31.75) (xy 123.19 31.75)
 		)
 		(stroke
@@ -6400,6 +6613,16 @@
 			(type default)
 		)
 		(uuid "ea5da4fc-e331-4e93-8849-be3c5201b3d6")
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf2d2ef-4d26-4e2d-aab9-783e84d841fe")
 	)
 	(wire
 		(pts
@@ -6480,6 +6703,16 @@
 			(type default)
 		)
 		(uuid "f2019708-c580-4c6a-b1f5-61db3fea9e5e")
+	)
+	(wire
+		(pts
+			(xy 138.43 110.49) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27d5800-aae8-4c4f-b051-29ba43b4cc35")
 	)
 	(wire
 		(pts
@@ -6610,6 +6843,16 @@
 			(type default)
 		)
 		(uuid "fb928e2c-ce3e-41a1-9e7a-9512bd976825")
+	)
+	(wire
+		(pts
+			(xy 143.51 110.49) (xy 140.97 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb139ea-d437-4253-9930-39cb9bffeab0")
 	)
 	(wire
 		(pts
@@ -7764,7 +8007,7 @@
 		(uuid "2913f5d1-cc89-4656-8414-cca228993987")
 	)
 	(label "UART_RX"
-		(at 245.11 29.21 0)
+		(at 240.03 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8074,7 +8317,7 @@
 		(uuid "acfc52a1-5d81-4ef4-9d68-424e19d00047")
 	)
 	(label "I2C_SDA"
-		(at 247.65 58.42 0)
+		(at 242.57 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8194,7 +8437,7 @@
 		(uuid "dc1e1647-98d8-4f7a-9fda-ad6cc888fcef")
 	)
 	(label "UART_TX"
-		(at 245.11 31.75 0)
+		(at 240.03 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8204,7 +8447,7 @@
 		(uuid "dd23ce72-7895-4c07-ad16-f491eeeaae8f")
 	)
 	(label "I2C_SCL"
-		(at 247.65 60.96 0)
+		(at 242.57 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8265,7 +8508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00d0701f-2e37-4abd-8c98-c641593ad0dc")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR018"
 			(at 113.03 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8325,7 +8568,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR046")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8343,7 +8586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07791ae5-fd9d-481a-841f-4c84de1f5190")
-		(property "Reference" "U15"
+		(property "Reference" "U5"
 			(at 267.97 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8378,7 +8621,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2845379.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/HC-1.25-2PWT.pdf"
 			(at 259.334 59.563 0)
 			(hide yes)
 			(show_name no)
@@ -8427,7 +8670,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "U15")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8445,7 +8688,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "140c8298-16cc-42e4-9408-efa2d4eb5cb4")
-		(property "Reference" "C15"
+		(property "Reference" "C6"
 			(at 182.88 110.4962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8509,7 +8752,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "C15")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8527,7 +8770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c2b4eb8-a9ad-4e10-b635-89838aa453ad")
-		(property "Reference" "R26"
+		(property "Reference" "R3"
 			(at 125.73 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8602,7 +8845,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "R26")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8620,7 +8863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20dd6db6-508d-475b-9f59-8346742c39c2")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR017"
 			(at 168.91 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8680,7 +8923,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR036")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8698,7 +8941,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21b9d848-0d26-4d01-a8b0-99e7cf1ae1c5")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR02"
 			(at 180.34 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8758,7 +9001,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR010")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8775,7 +9018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23c5c4eb-7d76-4dbd-af47-5ab4d50f3cc3")
-		(property "Reference" "R8"
+		(property "Reference" "R5"
 			(at 104.14 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8850,7 +9093,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "R8")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8867,7 +9110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26b10572-c908-4f53-a7ef-2c0a1710138b")
-		(property "Reference" "R7"
+		(property "Reference" "R4"
 			(at 64.77 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8942,7 +9185,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "R7")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8960,7 +9203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28210820-d716-4efe-b91b-e7fe7ac33ea0")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR08"
 			(at 223.52 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9021,7 +9264,86 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR050")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 127 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a60897c-7e35-4848-9404-baeecfd168e5")
+		(property "Reference" "TP3"
+			(at 125.73 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 124.46 99.0601 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 121.92 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ed0c026-1217-4235-95ca-0560dd85ca4d")
+		)
+		(instances
+			(project "LIONv3"
+				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -9070,7 +9392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/891/esp32_c6_mini_1_datasheet_en-3105735.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/ESP32-C6-MINI-1.pdf"
 			(at 107.95 55.118 0)
 			(hide yes)
 			(show_name no)
@@ -9284,7 +9606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31401f73-004c-458f-a1b6-ee490b3efd02")
-		(property "Reference" "C5"
+		(property "Reference" "C1"
 			(at 101.6 38.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9359,7 +9681,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "C5")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9377,7 +9699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3efced7b-129a-4db3-89e3-f82e7bee60d6")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 245.11 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9409,7 +9731,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/TMP112"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/TMP112AIDRLR.pdf"
 			(at 242.824 110.363 0)
 			(hide yes)
 			(show_name no)
@@ -9464,7 +9786,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -9482,7 +9804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "467d5866-6d93-4cf2-a96e-65cc2514b14b")
-		(property "Reference" "U19"
+		(property "Reference" "U4"
 			(at 228.6 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9517,7 +9839,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2845379.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/HC-1.25-2PWT.pdf"
 			(at 219.964 59.563 0)
 			(hide yes)
 			(show_name no)
@@ -9566,7 +9888,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "U19")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9584,7 +9906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c26ef2e-1860-448b-80ff-0e9e745e955e")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR013"
 			(at 264.16 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9644,7 +9966,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR018")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9662,7 +9984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "519e8a79-03dd-4d48-950e-85973c0b9a0f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 90.17 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9722,7 +10044,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9740,7 +10062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5245d82e-e6ca-4a15-89a7-69a0b1e2fdfb")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR07"
 			(at 180.34 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9800,7 +10122,86 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR011")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 101.6 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52db9012-cb8c-49db-a203-89b8f631d83e")
+		(property "Reference" "TP7"
+			(at 102.87 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 104.14 165.0999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 106.68 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6e851fc-3f2b-4fc3-a34a-5bb89fd7a36d")
+		)
+		(instances
+			(project "LIONv3"
+				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9818,7 +10219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54550753-d63a-439d-94de-20b11ee8da92")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 113.03 38.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9893,7 +10294,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9911,7 +10312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54e88030-a9d1-4f43-8990-6092b6dc0f49")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 29.21 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9984,7 +10385,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10002,7 +10403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "550addb4-6628-439a-9274-47e0bd2aa61d")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR04"
 			(at 262.89 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10063,7 +10464,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR035")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10080,7 +10481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5dd89fda-6bca-450f-8443-83f1fe98b383")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 88.9 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10111,7 +10512,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/PMEG2010ER.pdf"
 			(at 88.9 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10163,7 +10564,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10181,7 +10582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61729918-99b2-49fb-8f1d-2c4df88aeee0")
-		(property "Reference" "R27"
+		(property "Reference" "R2"
 			(at 116.84 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10256,7 +10657,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "R27")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10274,7 +10675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "619ce0c4-5cd3-4099-a139-bf674571d92c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 90.17 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10334,7 +10735,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10352,7 +10753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d4998c2-de3e-4d37-8c23-bb471b282cfd")
-		(property "Reference" "U14"
+		(property "Reference" "U1"
 			(at 228.6 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10387,7 +10788,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2845379.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/HC-1.25-2PWT.pdf"
 			(at 219.964 30.353 0)
 			(hide yes)
 			(show_name no)
@@ -10436,7 +10837,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "U14")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10454,7 +10855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e61150b-8a19-4fed-a836-c98b7c84cf92")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 224.79 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10529,7 +10930,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10578,7 +10979,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/mure-s-a0010614409-1.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/BLM21PG221SN1D.pdf"
 			(at 69.85 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10649,7 +11050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "745622d4-e99a-4658-b9d6-5943592edc87")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR020"
 			(at 24.13 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -10710,7 +11111,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR04")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10728,7 +11129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77e8f2a6-3ee5-4660-ab1e-8ca435ec1009")
-		(property "Reference" "C23"
+		(property "Reference" "C7"
 			(at 115.57 177.8062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10792,7 +11193,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "C23")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10810,7 +11211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78685101-6377-4cc0-9989-ddc58d04eaf2")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR019"
 			(at 95.25 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -10870,7 +11271,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR038")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10878,7 +11279,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 99.06 0)
+		(at 138.43 110.49 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10888,8 +11289,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c32b391-2657-4b56-8a6d-172e63fddfc6")
-		(property "Reference" "#PWR08"
-			(at 138.43 105.41 0)
+		(property "Reference" "#PWR015"
+			(at 138.43 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10900,7 +11301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 104.14 0)
+			(at 138.43 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10910,7 +11311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 99.06 0)
+			(at 138.43 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10921,7 +11322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 99.06 0)
+			(at 138.43 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10932,7 +11333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 99.06 0)
+			(at 138.43 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10948,7 +11349,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR08")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10966,7 +11367,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f8d73e1-b169-40aa-a91e-c7bb54efd4dc")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 99.06 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11026,7 +11427,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11044,7 +11445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80807281-cd0d-4f69-92b4-4e36c9c40a13")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 73.66 58.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11077,7 +11478,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C96512.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/ESD9B3.3ST5G.pdf"
 			(at 71.12 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -11119,7 +11520,86 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "D2")
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 143.51 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85b5a1d4-1402-4662-b2a5-1de5f9cd6424")
+		(property "Reference" "TP6"
+			(at 144.78 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 146.05 111.7599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 148.59 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 143.51 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81b02f32-6c0d-457e-8158-a3f480b89a6d")
+		)
+		(instances
+			(project "LIONv3"
+				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -11228,7 +11708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9073ec8d-0f43-4b10-abd1-1765f5d33be6")
-		(property "Reference" "U9"
+		(property "Reference" "U2"
 			(at 267.97 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11263,7 +11743,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2845379.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/HC-1.25-2PWT.pdf"
 			(at 259.334 30.353 0)
 			(hide yes)
 			(show_name no)
@@ -11312,7 +11792,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "U9")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -11330,7 +11810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95b5a491-9742-4ed2-9c45-a567509aa3a9")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 62.23 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11390,7 +11870,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11408,7 +11888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96a7ebae-a483-4257-8140-5e6f03d51e02")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR03"
 			(at 223.52 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11469,7 +11949,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR048")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11487,7 +11967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a13daa66-bb54-46c2-a3e9-613ca6bcfbf0")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 62.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11547,7 +12027,165 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR015")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 190.5 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a71091d7-402f-47f1-910e-4a42f2dd1136")
+		(property "Reference" "TP2"
+			(at 191.77 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 193.04 68.5799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 195.58 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f391478-abdf-429e-963f-db34f5e84f7c")
+		)
+		(instances
+			(project "LIONv3"
+				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 132.08 107.95 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af86c0b5-33cb-4c4d-af82-f450d9c3f041")
+		(property "Reference" "TP5"
+			(at 130.81 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 129.54 106.6801 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 127 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 132.08 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eac3552a-bb45-4971-8a66-8b46115fe96b")
+		)
+		(instances
+			(project "LIONv3"
+				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -11655,7 +12293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9673bca-5501-4334-ad3c-65dd7c8d9aa9")
-		(property "Reference" "U2"
+		(property "Reference" "U8"
 			(at 43.18 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11688,7 +12326,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2765186.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/TYPE-C-16PIN-2MD.pdf"
 			(at 40.894 181.483 0)
 			(hide yes)
 			(show_name no)
@@ -11767,7 +12405,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "U2")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -11785,7 +12423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bec5575a-0746-47a6-805c-526d5e42744f")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 29.21 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11858,7 +12496,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11876,7 +12514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2b25d7a-ca69-4a9f-aa88-0b16aab25df0")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 64.77 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11909,7 +12547,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C96512.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/ESD9B3.3ST5G.pdf"
 			(at 62.23 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11951,7 +12589,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11969,7 +12607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbe07a8a-6822-402a-9a30-b89a8185a8e3")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR09"
 			(at 262.89 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12029,7 +12667,86 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR049")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 129.54 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd5063d6-ca13-45e3-a12e-4ad997bb2597")
+		(property "Reference" "TP4"
+			(at 128.27 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 127 102.8701 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 129.54 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eaf9d436-bd49-44b9-8885-4d184daef7de")
+		)
+		(instances
+			(project "LIONv3"
+				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -12047,7 +12764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce779983-4c1e-4ed6-a0d5-fa1a7b457509")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR016"
 			(at 264.16 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12107,7 +12824,86 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR019")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 104.14 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d08d0394-f2aa-420f-977d-9f43e5d851b4")
+		(property "Reference" "TP1"
+			(at 105.41 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 106.68 59.6899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 109.22 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bf152f6-eb4c-4ada-b9c1-6776b7df3f9d")
+		)
+		(instances
+			(project "LIONv3"
+				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -12124,7 +12920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2203742-6442-4702-a1aa-94e9d75942f4")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR010"
 			(at 114.3 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12184,7 +12980,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "#PWR033")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12202,7 +12998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de400b3a-855c-4741-a749-6481715e2dbe")
-		(property "Reference" "U21"
+		(property "Reference" "U7"
 			(at 96.9011 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12237,7 +13033,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/USBLC6-2SC6.pdf"
 			(at 96.52 187.325 0)
 			(hide yes)
 			(show_name no)
@@ -12292,7 +13088,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "U21")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -12310,7 +13106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e038ed60-1c03-4475-8afa-ced65f2c913c")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 266.7 104.1462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12385,7 +13181,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12403,7 +13199,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ec407059-9edf-4a39-8499-3adb9e9e4306")
-		(property "Reference" "C14"
+		(property "Reference" "C5"
 			(at 171.45 110.4962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12467,7 +13263,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "C14")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -12484,7 +13280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee90b9d8-cbab-4088-ae07-c4e262d03f2c")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 92.71 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12559,7 +13355,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12657,7 +13453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f14e3c57-fec3-442f-9a6a-0a6325cf2123")
-		(property "Reference" "R28"
+		(property "Reference" "R6"
 			(at 161.29 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12730,7 +13526,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "R28")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12748,7 +13544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f36dbd5a-aa58-45a9-bde2-d5e959d8eff4")
-		(property "Reference" "R29"
+		(property "Reference" "R8"
 			(at 161.29 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12821,7 +13617,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "R29")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12916,7 +13712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fee6defa-bd23-4a1f-936b-747a3a44335c")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 92.71 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12991,7 +13787,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)

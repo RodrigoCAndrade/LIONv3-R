@@ -7,10 +7,12 @@
 	(title_block
 		(title "LIONv3")
 		(date "2026-08-12")
-		(rev "0.1")
+		(rev "1.0")
 		(comment 1 "v3-Rodrigo")
 		(comment 2 "Rodrigo Andrade")
 		(comment 3 "2026-08-12")
+		(comment 4 "Rodrigo Andrade")
+		(comment 5 "2026-09-14")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -1690,16 +1692,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 31.75) (xy 97.79 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "998c5688-3349-467c-8587-16943a52ae0a")
-	)
-	(wire
-		(pts
 			(xy 21.59 30.48) (xy 21.59 31.75)
 		)
 		(stroke
@@ -1727,6 +1719,16 @@
 			(type default)
 		)
 		(uuid "ac41248d-8f0d-4eaa-9366-03b169e6a2cd")
+	)
+	(wire
+		(pts
+			(xy 80.01 31.75) (xy 97.79 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd78f6e-3ad8-41a9-9223-1319058bde4d")
 	)
 	(wire
 		(pts
@@ -2025,7 +2027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10126aff-5645-4148-8f6e-78e4a713ea45")
-		(property "Reference" "C1"
+		(property "Reference" "C20"
 			(at 24.13 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2100,7 +2102,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e"
-					(reference "C1")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -2118,7 +2120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "289604f4-22b5-4262-97b6-d258f979b077")
-		(property "Reference" "R1"
+		(property "Reference" "R28"
 			(at 139.7 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2180,7 +2182,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e"
-					(reference "R1")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2198,7 +2200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b59011d-b656-4f9a-bbc4-d3398ff92a23")
-		(property "Reference" "R12"
+		(property "Reference" "R29"
 			(at 163.83 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2260,7 +2262,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e"
-					(reference "R12")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2383,7 +2385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5517011e-ebad-4a85-9ed2-e4bfc5928507")
-		(property "Reference" "D1"
+		(property "Reference" "D6"
 			(at 97.79 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,7 +2419,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdal.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/TI-ESD752DBZR.pdf"
 			(at 91.44 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2462,7 +2464,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e"
-					(reference "D1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2479,7 +2481,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55352883-90bd-4412-a307-1e936896d108")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR058"
 			(at 21.59 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -2540,7 +2542,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e"
-					(reference "#PWR05")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2558,7 +2560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64929a9f-7d6d-4b1b-b384-906487ed1b6d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR056"
 			(at 21.59 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -2618,7 +2620,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e"
-					(reference "#PWR01")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2636,7 +2638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ae9ab5c-86ef-4f9f-aca5-5bfc453ec770")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR057"
 			(at 151.13 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2696,7 +2698,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e"
-					(reference "#PWR020")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2714,7 +2716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb7af610-9dff-4202-806a-7584b1811ace")
-		(property "Reference" "C24"
+		(property "Reference" "C22"
 			(at 153.67 38.0935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2789,7 +2791,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e"
-					(reference "C24")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -2807,7 +2809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0c80ba2-ea4b-4b2a-9f1a-87df646fb76c")
-		(property "Reference" "C2"
+		(property "Reference" "C21"
 			(at 35.56 36.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2882,7 +2884,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e"
-					(reference "C2")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -2899,7 +2901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0317695-cb60-48fd-be49-e963dc352acb")
-		(property "Reference" "U1"
+		(property "Reference" "U21"
 			(at 67.31 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2931,7 +2933,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3414.pdf"
+		(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/TCAN3414DR.pdf"
 			(at 65.024 36.703 0)
 			(hide yes)
 			(show_name no)
@@ -2992,7 +2994,7 @@
 		(instances
 			(project "LIONv3"
 				(path "/3cc9e06f-00d0-4bec-822f-2e156022ced4/732ad377-cd6b-418c-b5b5-46888f6f133e"
-					(reference "U1")
+					(reference "U21")
 					(unit 1)
 				)
 			)

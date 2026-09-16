@@ -78,9 +78,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.6,
-          "width": 0.250013
+          "drill": 2.7,
+          "height": 5.4,
+          "width": 5.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -187,7 +187,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1,
         "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.25,
+        "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.254,
@@ -798,7 +798,7 @@
         "uuid": "3cc9e06f-00d0-4bec-822f-2e156022ced4"
       }
     ],
-    "used_designators": "",
+    "used_designators": "H1-3,#PWR8",
     "variants": []
   },
   "sheets": [

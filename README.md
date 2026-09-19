@@ -20,7 +20,7 @@
 
 ## Overview
 
-The LIONv3-R is a powerful IoT and Direct-to-Satellite (DtS) board powered by the ESP32-C6, featuring 16MB of internal memory and versatile local connectivity through Wi-Fi, Zigbee, and Thread. For global communication, it utilizes LoRa (LR-FHSS) technology, which allows for a high density of devices transmitting data reliably directly to satellites from remote locations. By bridging local wireless networks with satellite reach, the LIONv3-R provides a complete and scalable hardware solution for telemetry, global tracking, and remote sensing applications.
+The LIONv3-R is an IoT and Direct-to-Satellite (DtS) board built around the ESP32-C6, with 16 MB of external flash and local connectivity over Wi-Fi, Zigbee and Thread. Its radio supports LR-FHSS alongside conventional LoRa, enabling reliable uplinks to satellites or terrestrial gateways from remote sites, at device densities conventional LoRa cannot sustain. By bridging local wireless networks with satellite reach, the LIONv3-R is a complete, scalable hardware platform for telemetry, global asset tracking and remote sensing.
 
 ## Repository Organization
 
@@ -65,7 +65,13 @@ We welcome contributions to this project! To ensure a smooth collaboration and m
 
 ## References
 
-<br/>
+This board was developed from scratch, but draws on the earlier LIONv1 and LIONv2 designed by [Diego Anestor Coutinho](https://github.com/DIEGOVZK) and [Arielli Ajudarte](https://github.com/ari-aju). The v3 introduces several improvements:
+
+- Dedicated low-power MCU on board
+- LR-FHSS support and a more capable LoRa transceiver, covering both sub-GHz and S-band
+- External flash for store-and-forward applications
+- More efficient antenna
+- More compact form factor
 
 ## License
 

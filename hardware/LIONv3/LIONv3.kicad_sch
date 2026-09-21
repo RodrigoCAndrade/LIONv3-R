@@ -2883,8 +2883,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0.635 5.715 0)
+			(property "Reference" "U7"
+				(at 1.6511 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2895,7 +2895,7 @@
 				)
 			)
 			(property "Value" "USBLC6-2SC6"
-				(at 0.635 3.81 0)
+				(at 1.6511 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2918,7 +2918,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(property "Datasheet" "file://${KIPRJMOD}/LIONv3-Datasheets/USBLC6-2SC6.pdf"
 				(at 1.27 -8.255 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2931,6 +2931,17 @@
 				)
 			)
 			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C7519"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3227,7 +3238,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "I/O1"
 						(effects
@@ -3263,7 +3274,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "I/O2"
 						(effects
@@ -3281,7 +3292,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "I/O2"
 						(effects
@@ -3317,7 +3328,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "I/O1"
 						(effects

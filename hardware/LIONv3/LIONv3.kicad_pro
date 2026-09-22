@@ -79,8 +79,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.2,
-          "width": 0.8
+          "height": 0.6,
+          "width": 1.325
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -568,29 +568,62 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "120Ω",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 0, 194)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgb(0, 0, 194)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
+        "clearance": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "50Ω",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 0, 255)",
+        "track_width": 0.31,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.27,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90Ω",
+        "pcb_color": "rgb(0, 194, 194)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.27,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.4,
         "tuning_profile": "",
         "via_diameter": 0.6,
@@ -607,6 +640,12 @@
       ],
       "/CAN_P": [
         "120Ω"
+      ],
+      "/D+": [
+        "90Ω"
+      ],
+      "/D-": [
+        "90Ω"
       ],
       "/RF/ANT_915": [
         "50Ω"
@@ -652,6 +691,30 @@
       {
         "netclass": "Power",
         "pattern": "+3.3V_LDO"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/D+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/D-"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USB_D+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USB_D-"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/ESP_USB_D-"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/ESP_USB_D+"
       }
     ]
   },
@@ -774,7 +837,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,

@@ -46,7 +46,7 @@ The LIONv3-R is an IoT and Direct-to-Satellite (DtS) board built around the ESP3
   </thead>
   <tbody>
     <tr>
-      <td><img src="mechanics/3d_exports/PCB-Front.png" alt="board render" width="128"/></td>
+      <td><img src="mechanics/3d_exports/PCB-Front.png" alt="board render" width="156"/></td>
       <td>LIONv3-R</td>
       <td>🚧 Development</td>
       <td><a href="#">-</a></td>
@@ -79,3 +79,15 @@ This project utilizes a dual-licensing approach to maximize flexibility and adop
 
 * **Hardware:** The hardware designs and schematics are licensed under the permissive **[CERN-OHL-P-2.0](hardware/LICENSE)** open-hardware license. You are entirely free to use, modify, distribute, and commercialize the design without any copyleft obligations to share your derived works under the same terms.
 * **Software:** All embedded firmware and utility scripts are licensed under the **[MIT License](software/LICENSE)**. You are free to use, modify, and distribute the code without restriction, provided the original copyright notice and permission notice are included.
+
+## Acknowledgments
+
+This work was carried out at the National Institute of Telecommunications (Inatel) with the support of three research laboratories. The EMBRAPII Inatel Competence Center for 5G and 6G Networks [(xGMobile)](https://inatel.br/xgmobile/) supported this project through its Talent Development Program (PFT xGMobile), alongside the Radio & Communication Laboratory [(RadioCom Lab)](https://inatel.br/radiocomlab/) and the Wireless and Artificial Intelligence Laboratory [(WAI Lab)](https://inatel.br/wailab/). Many thanks to the researchers and staff of all three laboratories for their help and for the infrastructure that made the LIONv3-R possible.
+
+<p align="center">
+  <img src="https://i.imgur.com/tXnDPkG.png" alt="Funding" width="600"/>
+</p>
+
+<p align="center">
+  <sub>Built with ❤️ by <a href="https://rodrigoandrade.com">Rodrigo de Carvalho Andrade</a></sub>
+</p>

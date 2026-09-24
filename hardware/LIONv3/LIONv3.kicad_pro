@@ -79,8 +79,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.6,
-          "width": 0.250013
+          "height": 2.4,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -90,19 +90,19 @@
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "border_hatch_pitch": 0.508,
+          "corner_radius": 1.0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 2,
+          "min_thickness": 0.3,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -185,11 +185,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
-        "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.25,
+        "min_clearance": 0.127,
+        "min_connection": 0.127,
+        "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.3,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -198,8 +198,8 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.2,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.13,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -251,7 +251,8 @@
       "track_widths": [
         0.0,
         0.2,
-        0.3
+        0.3,
+        6.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -294,7 +295,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.1"
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -560,36 +561,69 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "120Ω",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 0, 194)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgb(0, 0, 194)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
+        "clearance": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "50Ω",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 0, 255)",
+        "track_width": 0.31,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.27,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90Ω",
+        "pcb_color": "rgb(0, 194, 194)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgb(0, 194, 194)",
+        "track_width": 0.27,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.4,
         "tuning_profile": "",
         "via_diameter": 0.6,
@@ -606,6 +640,12 @@
       ],
       "/CAN_P": [
         "120Ω"
+      ],
+      "/D+": [
+        "90Ω"
+      ],
+      "/D-": [
+        "90Ω"
       ],
       "/RF/ANT_915": [
         "50Ω"
@@ -643,6 +683,38 @@
       {
         "netclass": "50Ω",
         "pattern": "/RF/ANT_915"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+4.69V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3.3V_LDO"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/D+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/D-"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USB_D+"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/USB_D-"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/ESP_USB_D-"
+      },
+      {
+        "netclass": "90Ω",
+        "pattern": "/ESP_USB_D+"
       }
     ]
   },
@@ -660,7 +732,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -765,7 +837,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -798,7 +870,7 @@
         "uuid": "3cc9e06f-00d0-4bec-822f-2e156022ced4"
       }
     ],
-    "used_designators": "#PWR46,#PWR51,D4,D6-8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
